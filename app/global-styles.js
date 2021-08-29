@@ -17,7 +17,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #app {
-    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F5F5;
     min-height: 100%;
     min-width: 100%;
   }
@@ -26,6 +27,10 @@ const GlobalStyle = createGlobalStyle`
   label {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5em;
+  }
+
+  .main-yellow{
+    color: #F5CE32;
   }
 `;
 
