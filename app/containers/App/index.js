@@ -16,6 +16,7 @@ import FeaturePage from 'containers/FeaturePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Footer from 'components/Footer';
 import MainMenu from 'components/MainMenu';
+import PokemonListPage from '../PokemonList';
 
 import GlobalStyle from '../../global-styles';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -32,6 +33,7 @@ export default function App() {
         <meta name="description" content="A React.js Boilerplate application" />
       </Helmet>
       <MainMenu />
+      <PokemonListPage />
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/features" component={FeaturePage} />
